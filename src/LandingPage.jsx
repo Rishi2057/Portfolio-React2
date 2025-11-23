@@ -5,7 +5,7 @@ import { IoLogoVercel } from 'react-icons/io5'
 import Icons from './components/Icons'
 import user from './assets/cover.jpg'
 import SideBarHeader from './components/SideBarHeader'
-import "./LandingPage.css"
+import "./Landingpage.css"
 import { useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import MobHeader from './components/MobHeader'
