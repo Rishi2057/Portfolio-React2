@@ -1,0 +1,32 @@
+.menu-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.menu-btn span {
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  transform-origin: center;
+}
+
+.menu-btn.open span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.menu-btn.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn.open span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}

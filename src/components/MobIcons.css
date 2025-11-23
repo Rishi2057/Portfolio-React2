@@ -1,0 +1,36 @@
+
+/* .card, .card2 {
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease, opacity 0.4s ease;
+} */
+
+.card:hover { transform: rotate(-45deg) scale(1.1); }
+.card2:hover { transform: rotate(45deg) scale(1.1); }
+
+
+.fade-rotate:not(:hover) {
+
+  transform: rotate(-90deg);
+  opacity: 0;
+  animation: fadeRotate 0.8s ease forwards;
+}
+
+@keyframes fadeRotate {
+  from { opacity: 0; transform: rotate(-90deg); }
+  to   { opacity: 1; transform: rotate(0deg); }
+}
+
+.fade2-rotate:not(:hover) {
+
+  transform: rotate(90deg);
+  opacity: 0;
+  animation: fadeRotate2 0.8s ease forwards;
+}
+
+@keyframes fadeRotate2 {
+  from { opacity: 0; transform: rotate(90deg); }
+  to   { opacity: 1; transform: rotate(0deg); }
+}
+
+
