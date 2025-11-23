@@ -20,8 +20,8 @@ function Projects() {
 
     return (
         <>
-            <MobHeader />
-            {/* <Header /> */}
+            <div className='sm:hidden'><MobHeader /></div>
+            <div className='hidden sm:flex'><Header /></div>
             <div className="min-h-screen pb-15 bg-fixed bg-center text-white" style={{ backgroundImage: `url("https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg")`, backgroundSize: "cover", backgroundRepeat: "no-repeat" }} >
 
                 <div className='md:grid grid-cols-[1fr_20fr_1fr]'>

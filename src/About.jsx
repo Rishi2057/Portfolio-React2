@@ -9,8 +9,8 @@ function About() {
 
     return (
         <>
-            <MobHeader />
-
+           <div className='sm:hidden'><MobHeader /></div>
+            <div className='hidden sm:flex'><Header /></div>
             <div
                 className="min-h-screen bg-fixed"
                 style={{

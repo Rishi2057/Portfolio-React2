@@ -58,8 +58,8 @@ function Contact() {
 
     return (
         <>
-            <MobHeader />
-            {/* <Header /> */}
+           <div className='sm:hidden'><MobHeader /></div>
+            <div className='hidden sm:flex'><Header /></div>
             <div className=" h-screen bg-fixed pb-100" style={{ backgroundImage: `url("https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg")`, backgroundSize: "cover", backgroundRepeat: "no-repeat", }} >
                 <div className='h-screen text-white'>
                     <div className='pt-35 flex justify-center'>

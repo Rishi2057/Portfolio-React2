@@ -13,8 +13,8 @@ function Skills() {
 
   return (
     <>
-    <MobHeader/>
-      {/* <Header /> */}
+    <div className='sm:hidden'><MobHeader /></div>
+            <div className='hidden sm:flex'><Header /></div>
       <div className=" min-h-screen" style={{ backgroundImage: `url("https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg")`, backgroundSize: "cover", backgroundRepeat: "no-repeat", }} >
 
         <div className='text-white h-screen grid grid-cols-[1fr_6fr_1fr]'>
